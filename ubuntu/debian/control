@@ -1,4 +1,4 @@
-Source: ignition-rendering6
+Source: ignition-rendering7
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -18,11 +18,11 @@ Build-Depends: cmake,
                libignition-plugin-dev,
                libogre-1.9-dev,
                libogre-2.2-dev
-Vcs-Browser: https://github.com/ignition-release/ign-rendering6-release
-Vcs-Git: https://github.com/ignition-release/ign-rendering6-release
+Vcs-Browser: https://github.com/ignition-release/ign-rendering7-release
+Vcs-Git: https://github.com/ignition-release/ign-rendering7-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-rendering6
+Package: libignition-rendering7
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -40,7 +40,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Shared l
 #        freeglut3-dev,
 #        libglew-dev,
 
-Package: libignition-rendering6-core-dev
+Package: libignition-rendering7-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
@@ -48,7 +48,7 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
-         libignition-rendering6 (= ${binary:Version}),
+         libignition-rendering7 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition rendering3 classes and functions - Core development files
@@ -57,7 +57,7 @@ Description: Ignition rendering3 classes and functions - Core development files
   .
   Core development files
 
-Package: libignition-rendering6-ogre1-dev
+Package: libignition-rendering7-ogre1-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
@@ -66,8 +66,8 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
          libogre-1.9-dev,
-         libignition-rendering6-core-dev,
-         libignition-rendering6-ogre1 (= ${binary:Version}),
+         libignition-rendering7-core-dev,
+         libignition-rendering7-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition rendering3 classes and functions for robot apps - Development files
@@ -76,7 +76,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
   .
   Ogre1 component development files
 
-Package: libignition-rendering6-ogre1
+Package: libignition-rendering7-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -87,7 +87,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
   .
   Ogre1 component shared library
 
-Package: libignition-rendering6-ogre2-dev
+Package: libignition-rendering7-ogre2-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
@@ -96,8 +96,8 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
          libogre-2.2-dev,
-         libignition-rendering6-core-dev,
-         libignition-rendering6-ogre2 (= ${binary:Version}),
+         libignition-rendering7-core-dev,
+         libignition-rendering7-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition rendering3 classes and functions for robot apps - Development files
@@ -106,7 +106,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
   .
   Ogre2 component development files
 
-Package: libignition-rendering6-ogre2
+Package: libignition-rendering7-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -117,13 +117,13 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
   .
   Ogre2 component shared library
 
-Package: libignition-rendering6-dev
+Package: libignition-rendering7-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-rendering6-core-dev,
-         libignition-rendering6-ogre1-dev,
-         libignition-rendering6-ogre2-dev,
-         libignition-rendering6 (= ${binary:Version}),
+Depends: libignition-rendering7-core-dev,
+         libignition-rendering7-ogre1-dev,
+         libignition-rendering7-ogre2-dev,
+         libignition-rendering7 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition rendering3 classes and functions for robot apps - Metapackage
