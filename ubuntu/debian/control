@@ -12,6 +12,7 @@ Build-Depends: cmake,
                libfreeimage-dev,
                libignition-cmake2-dev (>= 2.3.0),
                libignition-common5-events-dev,
+               libignition-common5-geospatial-dev,
                libignition-common5-graphics-dev,
                libignition-math7-dev,
                libignition-math7-eigen3-dev,
@@ -46,6 +47,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common5-events-dev,
+         libignition-common5-geospatial-dev,
          libignition-common5-graphics-dev,
          libignition-math7-dev,
          libignition-math7-eigen3-dev,
@@ -64,6 +66,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common5-events-dev,
+         libignition-common5-geospatial-dev,
          libignition-common5-graphics-dev,
          libignition-math7-dev,
          libignition-math7-eigen3-dev,
@@ -94,6 +97,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common5-events-dev,
+         libignition-common5-geospatial-dev,
          libignition-common5-graphics-dev,
          libignition-math7-dev,
          libignition-math7-eigen3-dev,
