@@ -1,12 +1,11 @@
 Source: ignition-rendering7
-Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: cmake,
                doxygen,
                pkg-config,
-               debhelper (>= 9),
+               debhelper (>= 11),
                freeglut3-dev,
                libglew-dev,
                libfreeimage-dev,
@@ -20,8 +19,9 @@ Build-Depends: cmake,
                libignition-utils1-dev,
                libogre-1.9-dev,
                libogre-2.2-dev
-Vcs-Browser: https://github.com/ignition-release/ign-rendering7-release
+Vcs-Browser: https://github.com/ignitionrobotics/ignition-rendering
 Vcs-Git: https://github.com/ignition-release/ign-rendering7-release
+Standards-Version: 4.5.1
 Homepage: http://ignitionrobotics.org/
 
 Package: libignition-rendering7
@@ -30,11 +30,13 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Shared library
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Main shared library
+Description: Ignition rendering classes and functions for robot apps - Shared library
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Main shared library
 
 # Only for the examples:
 #
@@ -75,22 +77,26 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-rendering7-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Development files
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre1 component development files
+Description: Ignition rendering classes and functions for robot apps - Ogre1 dev files
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Ogre1 component development files
 
 Package: libignition-rendering7-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Development files
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre1 component shared library
+Description: Ignition rendering classes and functions for robot apps - Ogre1 lib
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Ogre1 component shared library
 
 Package: libignition-rendering7-ogre2-dev
 Architecture: any
@@ -106,22 +112,30 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-rendering7-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Development files
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre2 component development files
+Description: Ignition rendering classes and functions for robot apps - Development files
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Ignition rendering is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Ogre2 component development files
 
 Package: libignition-rendering7-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Development files
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre2 component shared library
+Description: Ignition rendering classes and functions for robot apps - Development files
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Ignition rendering is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Ogre2 component shared library
 
 Package: libignition-rendering7-dev
 Architecture: any
@@ -132,8 +146,12 @@ Depends: libignition-rendering7-core-dev (= ${binary:Version}),
          libignition-rendering7 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition rendering3 classes and functions for robot apps - Metapackage
-  Ignition rendering3 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Metapackage for development files
+Description: Ignition rendering classes and functions for robot apps - Metapackage
+ Ignition Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Ignition rendering is a component in the ignition framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Ignition rendering is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Metapackage for development files
