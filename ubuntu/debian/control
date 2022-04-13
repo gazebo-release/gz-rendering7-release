@@ -15,8 +15,8 @@ Build-Depends: cmake,
                libignition-common5-graphics-dev,
                libignition-math7-dev,
                libignition-math7-eigen3-dev,
-               libignition-plugin-dev,
-               libignition-utils1-dev,
+               libignition-plugin2-dev,
+               libignition-utils2-dev,
                libogre-1.9-dev,
                libogre-2.2-dev | libogre-next-dev
 Vcs-Browser: https://github.com/ignitionrobotics/ignition-rendering
@@ -54,7 +54,7 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-math7-dev,
          libignition-math7-eigen3-dev,
          libignition-rendering7 (= ${binary:Version}),
-         libignition-utils1-dev,
+         libignition-utils2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition rendering3 classes and functions - Core development files
