@@ -1,5 +1,7 @@
 usr/include/ignition/rendering[0-99]/ignition/rendering/ogre/*
 usr/include/ignition/rendering[0-99]/ignition/rendering/ogre.hh
+usr/include/ignition/rendering[0-99]/gz/rendering/ogre/*
+usr/include/ignition/rendering[0-99]/gz/rendering/ogre.hh
 usr/lib/*/libignition-rendering[0-99]-ogre.so
 usr/lib/*/pkgconfig/ignition-rendering[0-99]-ogre.pc
 usr/lib/*/cmake/ignition-rendering[0-99]-ogre/*
