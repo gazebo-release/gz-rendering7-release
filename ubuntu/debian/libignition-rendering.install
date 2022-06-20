@@ -1,1 +1,1 @@
-usr/lib/*/libignition-rendering[0-99].so.*
+usr/lib/*/lib+(ignition|gz)-rendering[0-99].so.*
