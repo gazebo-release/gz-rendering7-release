@@ -1,1 +1,1 @@
-usr/lib/*/cmake/+(ignition|gz)-rendering[0-99]-all/+(ignition|gz)-rendering[0-99]-all*
+usr/lib/*/cmake/*-rendering[0-99]-all/*-rendering[0-99]-all*

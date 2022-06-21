@@ -1,2 +1,2 @@
-usr/lib/*/lib+(ignition|gz)-rendering[0-99]-ogre2.so.*
-usr/lib/*/+(ign|gz)-rendering-[0-99]/engine-plugins/lib+(ignition|gz)-rendering*-ogre2*.so.*
+usr/lib/*/lib*-rendering[0-99]-ogre2.so.*
+usr/lib/*/*-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre2*.so.*
