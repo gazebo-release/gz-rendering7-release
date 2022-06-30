@@ -9,14 +9,14 @@ Build-Depends: cmake,
                freeglut3-dev,
                libglew-dev,
                libfreeimage-dev,
-               libignition-cmake3-dev,
-               libignition-common5-events-dev,
-               libignition-common5-geospatial-dev,
-               libignition-common5-graphics-dev,
-               libignition-math7-dev,
-               libignition-math7-eigen3-dev,
-               libignition-plugin2-dev,
-               libignition-utils2-dev,
+               libgz-cmake3-dev,
+               libgz-common5-events-dev,
+               libgz-common5-geospatial-dev,
+               libgz-common5-graphics-dev,
+               libgz-math7-dev,
+               libgz-math7-eigen3-dev,
+               libgz-plugin2-dev,
+               libgz-utils2-dev,
                libogre-1.9-dev,
                libogre-2.2-dev | libogre-next-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
@@ -49,15 +49,15 @@ Description: Gazebo Rendering classes and functions for robot apps - Shared libr
 Package: libgz-rendering7-core-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-common5-geospatial-dev,
-         libignition-common5-graphics-dev,
-         libignition-math7-dev,
-         libignition-math7-eigen3-dev,
-         libignition-plugin2-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-common5-geospatial-dev,
+         libgz-common5-graphics-dev,
+         libgz-math7-dev,
+         libgz-math7-eigen3-dev,
+         libgz-plugin2-dev,
          libgz-rendering7 (= ${binary:Version}),
-         libignition-utils2-dev,
+         libgz-utils2-dev,
          ${misc:Depends}
 Breaks: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
@@ -71,14 +71,14 @@ Description: Gazebo Rendering classes and functions - Core development files
 Package: libgz-rendering7-ogre1-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-common5-geospatial-dev,
-         libignition-common5-graphics-dev,
-         libignition-math7-dev,
-         libignition-math7-eigen3-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-common5-geospatial-dev,
+         libgz-common5-graphics-dev,
+         libgz-math7-dev,
+         libgz-math7-eigen3-dev,
          libogre-1.9-dev,
-         libignition-plugin2-dev,
+         libgz-plugin2-dev,
          libgz-rendering7-core-dev (= ${binary:Version}),
          libgz-rendering7-ogre1 (= ${binary:Version}),
          ${misc:Depends}
@@ -111,14 +111,14 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
 Package: libgz-rendering7-ogre2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-common5-geospatial-dev,
-         libignition-common5-graphics-dev,
-         libignition-math7-dev,
-         libignition-math7-eigen3-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-common5-geospatial-dev,
+         libgz-common5-graphics-dev,
+         libgz-math7-dev,
+         libgz-math7-eigen3-dev,
          libogre-2.2-dev | libogre-next-dev,
-         libignition-plugin2-dev,
+         libgz-plugin2-dev,
          libgz-rendering7-core-dev (= ${binary:Version}),
          libgz-rendering7-ogre2 (= ${binary:Version}),
          ${misc:Depends}
