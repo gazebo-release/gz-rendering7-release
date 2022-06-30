@@ -32,10 +32,10 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libignition-rendering7 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Shared library
+Description: Gazebo Rendering classes and functions for robot apps - Shared library
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
  .
  Main shared library
@@ -62,8 +62,8 @@ Depends: libignition-cmake3-dev,
 Breaks: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering3 classes and functions - Core development files
-  Gazebo rendering3 is a component in the Gazebo framework, a set of libraries
+Description: Gazebo Rendering classes and functions - Core development files
+  Gazebo rendering is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Core development files
@@ -85,10 +85,10 @@ Depends: libignition-cmake3-dev,
 Breaks: libignition-rendering7-ogre1-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-ogre1-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Ogre1 dev files
+Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
  .
  Ogre1 component development files
@@ -100,10 +100,10 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libignition-rendering7-ogre1 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-ogre1 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Ogre1 lib
+Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
  .
  Ogre1 component shared library
@@ -125,12 +125,12 @@ Depends: libignition-cmake3-dev,
 Breaks: libignition-rendering7-ogre2-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-ogre2-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Development files
+Description: Gazebo Rendering classes and functions for robot apps - Development files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
- Gazebo rendering is a component in the Gazebo framework, a set of libraries
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Ogre2 component development files
@@ -142,12 +142,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libignition-rendering7-ogre2 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-ogre2 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Development files
+Description: Gazebo Rendering classes and functions for robot apps - Development files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
- Gazebo rendering is a component in the Gazebo framework, a set of libraries
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Ogre2 component shared library
@@ -163,12 +163,12 @@ Depends: libgz-rendering7-core-dev (= ${binary:Version}),
 Breaks: libignition-rendering7-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Replaces: libignition-rendering7-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
-Description: Gazebo rendering classes and functions for robot apps - Metapackage
+Description: Gazebo Rendering classes and functions for robot apps - Metapackage
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
- applications.  Gazebo rendering is a component in the Gazebo framework, a
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
  set of libraries designed to rapidly develop robot applications.
- Gazebo rendering is a component in the Gazebo framework, a set of libraries
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Metapackage for development files
