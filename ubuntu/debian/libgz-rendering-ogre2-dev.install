@@ -4,4 +4,4 @@ usr/lib/*/lib*-rendering[0-99]-ogre2.so
 usr/lib/*/pkgconfig/*-rendering[0-99]-ogre2.pc
 usr/lib/*/cmake/*-rendering[0-99]-ogre2/*
 usr/lib/*/*-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre2*.so
-usr/share/ignition/*-rendering[0-99]/ogre2/*
+usr/share/gz/*-rendering[0-99]/ogre2/*
