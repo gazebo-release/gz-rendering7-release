@@ -18,7 +18,7 @@ Build-Depends: cmake,
                libgz-plugin2-dev,
                libgz-utils2-dev,
                libogre-1.9-dev,
-               libogre-2.2-dev | libogre-next-dev
+               libogre-next-2.3-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
 Vcs-Git: https://github.com/gazebo-release/gz-rendering7-release
 Standards-Version: 4.5.1
@@ -117,7 +117,7 @@ Depends: libgz-cmake3-dev,
          libgz-common5-graphics-dev,
          libgz-math7-dev,
          libgz-math7-eigen3-dev,
-         libogre-2.2-dev | libogre-next-dev,
+         libogre-next-2.3-dev,
          libgz-plugin2-dev,
          libgz-rendering7-core-dev (= ${binary:Version}),
          libgz-rendering7-ogre2 (= ${binary:Version}),
