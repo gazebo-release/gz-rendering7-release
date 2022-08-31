@@ -1,3 +1,9 @@
+gz-rendering7 (7.0.0~pre1-1~jammy) jammy; urgency=medium
+
+  * gz-rendering7 7.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 31 Aug 2022 12:57:00 -0700
+
 gz-rendering7 (6.999.999-1~jammy) jammy; urgency=medium
 
   * First release for jammy
