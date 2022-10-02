@@ -3,7 +3,7 @@
 
 EXTRA_CMAKE_FLAGS =
 ifneq (,$(filter $(DEB_HOST_ARCH_CPU), arm64 arm))
-    EXTRA_CMAKE_FLAGS = -DIGN_ADD_fPIC_TO_LIBRARIES=True
+    EXTRA_CMAKE_FLAGS = -DGZ_ADD_fPIC_TO_LIBRARIES=True
 endif
 
 .PHONY: override_dh_auto_configure \
