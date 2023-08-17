@@ -1,3 +1,9 @@
+gz-rendering7 (7.4.1-1~jammy) jammy; urgency=medium
+
+  * gz-rendering7 7.4.1-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Thu, 17 Aug 2023 21:41:01 +0000
+
 gz-rendering7 (7.4.0-1~jammy) jammy; urgency=medium
 
   * gz-rendering7 7.4.0-1 release
